@@ -1,5 +1,22 @@
-#Curso: Repaso 1
+# Curso: Repaso 1
 
-#Sociologos: Maximiliano Levenier, Mistian Herrera y José Valdés
+# Trabajo Regresión Múltiple
 
-#Cargar paquetes
+# Sociológos: Maximiliano Levenier, Mistian Herrera y José Valdés
+
+
+# Desactivar notación científica
+
+options(scipen = 999)
+
+# Cargar paquetes
+
+pacman::p_load(tidyverse,  # Incluye dplyr para la manipulación de datos y haver para importar datos
+               sjmisc,     # Para explorar y transformar datos 
+               sjPlot,     # Para analizar datos (mostrar resultados)
+               lmtest,     # Para realizar la validez de los modelos de regresión
+               car)        # Para el diagnóstico de regresión y pruebas estadísticas (vif)
+
+
+
+# Cargar base de datos (Maxi o Mitam)
