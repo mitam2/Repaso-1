@@ -3,7 +3,7 @@
     "path": "~/GitHub/Repaso-1/R/01-proc.R",
     "project_path": "R/01-proc.R",
     "type": "r_source",
-    "hash": "1825240202",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1742600522682.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "24,39",
-        "scrollLine": "2"
+        "cursorPosition": "35,14",
+        "scrollLine": "13"
     },
     "folds": "",
-    "lastKnownWriteTime": 1742600987,
+    "lastKnownWriteTime": 1742602750,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1742600987832,
+    "last_content_update": 1742602750339,
     "read_only": false,
     "read_only_alternatives": []
 }

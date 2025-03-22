@@ -23,3 +23,14 @@ pacman::p_load(tidyverse,  # Incluye dplyr para la manipulación de datos y have
 # Cargar base de datos (Maxi o Mitam)
 
 datos <- read_dta("input/data/TS3.dta")
+head(datos)
+frq(datos$e1)
+
+#variable dependeinte: e1
+#variables indeoendientes: sexo (a2), nivel educacional (f1), actividad principal (f5), edad, ingreso hogar (f12)
+
+frq(datos$a2)
+frq(datos$f1)
+frq(datos$f5)
+frq(datos$edad)
+frq(datos$f12)
